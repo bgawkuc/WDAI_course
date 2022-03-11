@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /* usuwa podpunkty */
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    width: 180px;
+    border: 1px grey dashed;
+    /* lączy obramowanie by nie robiły się podwójne linie */
+    border-collapse: collapse;
+    /* zakrywa delikatnie podwójną linie obramowania */
+    margin-left: -2px;
+}
+
+li a {
+    width: 100%;
+    /* gora-prawo-doł-lewo, nie uwzglednia zdj */
+    padding: 7px 0px 7px 30px;
+    /* mogę kliknać na cały obszar ramki a nie tylko na napis */
+    display: inline-block;
+    text-align: center;
+    /* usuwa podkreślenie */
+    text-decoration: none;
+    color: black;
+    /* duże litery */
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+
+ul #home {
+    background: url("images/home.png") no-repeat 5px 50%;
+    background-color: rgb(231, 227, 227);
+
+}
+ul #home:hover, #experts:hover, #quiz:hover, #projects:hover, #horoscopes:hover{
+    /* gdy najade na zielonym tle pojawi sie img przesunięy w lewo w poziomie 50% */
+    background: rgb(175, 251, 52) url("images/go.png") no-repeat 5px 50%;
+}
+
+/* dodanie z boku zdjeć */
+ul #features {
+    background: url("images/bg_here.png") no-repeat 5px 50%;
+    background-color: white;
+}
+
+ul #experts, #quiz, #projects, #horoscopes {
+    /* no-repeat zeby tylko raz sie pojawilo */
+    background: url("images/link.png") no-repeat 5px 50%;
+    background-color: rgb(231, 227, 227);
+}
+

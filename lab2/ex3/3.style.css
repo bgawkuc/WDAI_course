@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 30.5vw;
+    height: 20vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+} 
+
+@media (max-width:1000px){
+    img {
+        width: 46vw;
+        height: 35vw;
+    }
+}
+
+@media (max-width:750px) {
+    img {
+        width:96vw;
+        height: 70vw;
+    }
+}

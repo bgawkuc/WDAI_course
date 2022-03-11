@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+#p1 {
+    background-color: rgb(21, 21, 117);
+    border-style: dotted;
+    border-color: rgb(13, 236, 9);
+    border-width: 10px;
+    padding: 20px;
+    font-style: italic;
+    font-size: 22px;
+    color: cornsilk;
+}
+
+#p2 {
+    background-color: rgb(99, 99, 224);
+    font-weight: 900;
+    height: 400px;
+    width: 200px;
+    overflow: scroll;
+    padding: 40px;
+    
+}
+
+#p3 {
+    background-color: rgb(75, 75, 201);
+    color: rgb(143, 228, 217);
+    font-style: oblique;
+    width: 400px;
+    height: 200px;
+}
+
+.d4 {
+    background-color: rgb(47, 47, 230);
+    height: 300px;
+    position: relative;
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 20px;
+    border-color: rgb(194, 140, 194);
+}
+    
+#p4 {
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    text-align: center;
+}
+
+#table1 {
+    border: 3px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#thead1 {
+    background-color: rgb(24, 169, 241);
+    height: 40px;
+}
+
+
+#tbody1 td {
+    position: relative;
+    top: 4px;
+}
+
+.even {
+    background-color: rgb(216, 237, 255);
+    height: 40px;
+}
+
+.odd {
+    background-color: rgb(147, 219, 255);
+    height: 40px;
+}
+
+#table2 {
+    width: 100%;
+    height: 180px;
+    background-color: black;
+}
+
+#thead2 {
+    background-color: rgb(110, 105, 105);
+    height: 60px;
+}
+
+#tbody2 {
+    background-color: rgb(165, 159, 159);
+}
+
+.twoCats {
+    width: 20%;
+    height: auto;
+}
+
+#cat1 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#cat2 {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+.txt_two_cats {
+    margin-bottom: 100px;
+}
+
+.cat_container {
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.cats {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+.cat_container img {
+    height: 100%;
+    width: 100%;
+}
+
+#cat4 {
+    position: relative;
+    left: 100%;
+}
+
+#cat5 {
+    position: relative;
+    right: 100%;
+}
+
+.flag_container {
+    max-width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.flags {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.flag_container img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#eu_list {
+     position: relative;
+     color: rgb(255, 255, 255);
+     bottom: 70%;
+     left: 5%;
+     font-size: larger;
+
+ }
+
+#asia_list {
+    position: relative;
+    color: rgb(255, 255, 255);
+    bottom: 70%;
+    left: 5%;
+    font-size: larger;
+}
+
+#eu_flag {
+    position: relative;
+    left: 50%;
+}
+
+#asia_flag {
+    position: relative;
+    right: 50%;
+
+}
+
+.form_container {
+    width: 500px;
+    border: rgb(21, 21, 78) 2px solid ;
+    height: 570px;
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(236, 255, 62);
+    background-color: rgb(21, 21, 78);
+}
+
+.newLine, .sendForm{
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    width: 500px;
+    background-color:orange;
+    color: white;
+
+}
+
+.form_label {
+    float: left;
+    padding-left: 10%;
+}
+
+.form_input {
+    display: block;
+    overflow: hidden;
+    margin-left: 50%;
+}
+
+.label_and_input {
+    padding-top: 30px;
+}
+
+.newLine p {
+    position: relative;
+    top: 25%;
+    left: 10%;
+    font-size: 20px;
+}
+
+.sendForm input {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    font-size: 20px;
+}

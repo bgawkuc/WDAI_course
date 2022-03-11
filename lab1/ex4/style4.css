@@ -1,0 +1,29 @@
+.item1 {
+    background-color: rgb(181, 181, 243);
+    height: 80px;
+    width: 320px;
+    border: black solid 2px;
+    margin-bottom: 30px;
+}
+
+.item2 {
+    background-color: rgb(238, 116, 116);
+    height: 80px;
+    width: 140px;
+    border: black solid 2px;
+    margin-bottom: 30px;
+}
+
+.item3 {
+    background-color: rgb(244, 250, 189);
+    height: 80px;
+    width: 500px;
+    border: black solid 2px;
+    margin-bottom: 30px;
+}
+
+.firstRow, .secondRow, .thirdRw {
+    display: flex;
+    gap: 35px;
+    padding-left: 0px;
+}

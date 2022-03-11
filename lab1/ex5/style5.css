@@ -1,0 +1,35 @@
+body {
+  font: 1.2em Helvetica, Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+section {
+  width: 200px;
+  border: 1px solid #4D4E53;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.box {
+  border: 2px dotted rgb(96, 139, 168);
+}
+
+.box div {
+  padding: 20px;
+  border: 2px solid rgb(96, 139, 168);
+  border-radius: 5px;
+  background-color: rgba(96, 139, 168, .2);
+}
+
+.box :nth-child(2), .box :nth-child(4) {
+  width: 50px;
+}
+
+.box :nth-child(3) {
+  width: 60px;
+  display: flex;
+  justify-content:flex-end;
+  margin-left: 50px;
+}
+    

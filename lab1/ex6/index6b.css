@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li {
+    height: 70px;
+    display: inline-block;
+}
+
+.have_content {
+    border-top: 2px blue solid;
+    border-bottom: 2px blue solid ;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    background-color: red;
+    color: white;
+    padding-top: 18px;
+    font-size: 20px;
+}
+
+ul :nth-child(2), :nth-child(4) {
+    width: 50px;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}
+
+ul :nth-child(6) {
+    width: 200px;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}
+
+ul :nth-child(7) {
+    width: 130px;
+    padding-left: 40px;
+    border-right: none;
+    background: rgb(177, 248, 10) url("images/go.png") no-repeat 5px 50%;
+}
+
+ul :nth-child(8) {
+    width: 100px;
+    padding-left: 30px;
+    background: rgb(230, 230, 230) url("images/home.png") no-repeat 5px 50%;
+}
